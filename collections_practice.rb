@@ -39,7 +39,7 @@ def add_s(words)
     if index != 1
       word + "s"
     else
-      feet
+      "feet"
     end
   end
 end
