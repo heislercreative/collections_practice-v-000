@@ -31,7 +31,7 @@ def find_a(array)
 end
 
 def sum_array(numbers)
-  numbers.sum
+  numbers.each { |number| 0+=number}
 end
 
 def add_s(words)
