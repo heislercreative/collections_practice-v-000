@@ -12,11 +12,9 @@ def sort_array_char_count(strings)
   end
 end
 
-# def swap_elements(array)
-#   array.sort do |index|
-#     index[2] <=> index[1]
-#   end
-# end
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+end
 
 def reverse_array(array)
   array.reverse
